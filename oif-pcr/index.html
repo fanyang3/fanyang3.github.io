@@ -128,7 +128,7 @@ performance with the state-of-the-art methods in both indoor and outdoor scenes.
             <h3>Overview video (5 min)</h3>
             <hr style="margin-top:0px">
             <div class="embed-responsive embed-responsive-16by9"> -->
-                <iframe style="clip-path: inset(1px 1px)" width="100%" height="100%" src="https://www.youtube.com/embed/ep015Dda0T0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                <iframe style="clip-path: inset(1px 1px)" width="100%" height="100%" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
             </div>
         </div>
       </div>
@@ -163,40 +163,7 @@ performance with the state-of-the-art methods in both indoor and outdoor scenes.
       </div>
     </div>
   </section>
-  <br>
-
-  <!-- demo video with orig -->
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-            <h3>Matches on a low-texture area</h3>
-            <!-- <h3>Matches on </h3> -->
-            <p class="text-left"> 
-              Data is captured using an iPhone, color indicates the match confidence.</p>
-          <hr style="margin-top:0px">
-            <video width="100%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="" controls="" id="inspect_vid">
-              <source src="images/loftr-matches-compare.mp4" type="video/mp4">
-            </video>
-        </div>
-      </div>
-      <br>
-      <div class="row justify-content-center">
-        <div class="column">
-            <p class="mb-5"><a class="btn btn-large btn-light" role="button"  onclick="changePlaybackSpeed(0.125)"
-              target="_blank" disabled=1>
-          <i class="fa "></i> <span style="color:#ffffff;">0.5x speed</span></a> </p>
-        </div>
-        <div class="column">
-            <p class="mb-5"><a class="btn btn-large btn-light" role="button" onclick="changePlaybackSpeed(0.5)"
-              target="_blank" disabled=1>
-          <i class="fa fa-github-alt"></i> <span style="color:#ffffff;">2x speed</span></a> </p>
-        </div>
-        <br>
-        <br>
-    </div>
-  </section>
-  <br>  
+  <br> 
 
   <!-- compare -->
   <section>
@@ -213,28 +180,7 @@ performance with the state-of-the-art methods in both indoor and outdoor scenes.
       </div>
     </div>
   </section>
-  <br>
-
-  <!-- feature visualization -->
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-            <h3>Visualizations on the attention weights and the transformed features in LoFTR</h3>
-            <hr style="margin-top:0px">
-            <p class="text-justify">
-              We use PCA to reduce the dimension of the transformed features and visualize the results with RGB color.
-              The visualization for attention weights demonstrate that the features in indistinctive or low-texture regions are able to aggregate local and global context information through self-attention and cross-attention.
-              In the first two examples, the query point from the low-texture region is able to aggregate the surrounding global information flexibly. 
-              For instance, the point on the chair is looking at the edge of the chair. 
-              In the last two examples, the query point from the distinctive region can also utilize the richer information from other regions.
-              The feature visualization with PCA further shows that LoFTR learns a position-dependent feature representation.
-            </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <br>
+  <br>            
 
   <!-- more videos -->
   <!-- <section>
